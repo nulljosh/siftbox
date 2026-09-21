@@ -1,6 +1,6 @@
 # Architecture
 
-Gmail/Outlook/iCloud inbox triage. Scores messages (sender domain mismatch, bulk patterns, urgency language, unsubscribe headers) and one-taps junk, unsubscribes, archives. Web + iOS/macOS native, all OAuth. No scheduled scanning, no background polling, just user-invoked triage.
+Siftbox helps people clean out a messy inbox fast. It connects to Gmail, Outlook, or iCloud Mail, scores each message for how likely it is junk (mismatched sender domain, spammy bulk patterns, fake urgency, unsubscribe headers), and lets the user clear junk, unsubscribe, or archive with one tap. It runs as a web app and native iOS/macOS apps, all signing in with the mail provider's own login. It only checks mail when the user opens it, never on a schedule in the background.
 
 ## How it runs
 
