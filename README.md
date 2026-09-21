@@ -8,6 +8,8 @@ An inbox fills up whether you look at it or not. Dev-tool alerts that actually n
 
 That's the gap.
 
+<img src="progress.svg" width="460">
+
 ## What it does
 
 Sign in with Google and Siftbox reads your actual inbox over the Gmail API — web, iOS, or macOS. Junk gets scored — sender/domain mismatch, urgency language, an unsubscribe header nobody asked for — and cleared with one tap: a real `List-Unsubscribe` one-click POST where the sender supports it, archive or delete otherwise. Nothing is touched until you tap it.
